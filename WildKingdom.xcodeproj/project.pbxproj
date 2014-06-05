@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451BD481193CD1D900D3A6E3 /* animalViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 451BD480193CD1D900D3A6E3 /* animalViewCell.m */; };
 		45B60913193903B400A30A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B60912193903B400A30A09 /* Foundation.framework */; };
 		45B60915193903B400A30A09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B60914193903B400A30A09 /* CoreGraphics.framework */; };
 		45B60917193903B400A30A09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B60916193903B400A30A09 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		451BD47F193CD1D900D3A6E3 /* animalViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animalViewCell.h; sourceTree = "<group>"; };
+		451BD480193CD1D900D3A6E3 /* animalViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = animalViewCell.m; sourceTree = "<group>"; };
 		45B6090F193903B400A30A09 /* WildKingdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildKingdom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B60912193903B400A30A09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		45B60914193903B400A30A09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				45B60924193903B400A30A09 /* Main.storyboard */,
 				45B60927193903B400A30A09 /* ViewController.h */,
 				45B60928193903B400A30A09 /* ViewController.m */,
+				451BD47F193CD1D900D3A6E3 /* animalViewCell.h */,
+				451BD480193CD1D900D3A6E3 /* animalViewCell.m */,
 				45B6092A193903B400A30A09 /* Images.xcassets */,
 				45B60919193903B400A30A09 /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451BD481193CD1D900D3A6E3 /* animalViewCell.m in Sources */,
 				45B60929193903B400A30A09 /* ViewController.m in Sources */,
 				45B60923193903B400A30A09 /* AppDelegate.m in Sources */,
 				45B6091F193903B400A30A09 /* main.m in Sources */,
@@ -456,6 +462,7 @@
 				45B60943193903B400A30A09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45B60944193903B400A30A09 /* Build configuration list for PBXNativeTarget "WildKingdomTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				45B60946193903B400A30A09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
